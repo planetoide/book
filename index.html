@@ -15,7 +15,8 @@
     <nav class="navbar navbar-expand-lg fixed-top barra">
       <a class="navbar-brand" href="#inicio">Elvis Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barramenu" aria-controls="barramenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+		<!-- <span class="navbar-toggler-icon"></span> -->
+		<i class="fa fa-bars" aria-hidden="true"></i>
       </button>
       <div class="collapse navbar-collapse" id="barramenu">
         <div class="navbar-nav ml-auto">
@@ -25,45 +26,48 @@
           <a class="nav-item nav-link" href="#contacto">Contacto</a>
         </div>
       </div>
-    </nav>
-	<!-- Seccion Inicio -->
+	</nav>
+	<!-- Contenedor principal de la aplicación -->
 	<section  class="container">
+		<!-- Seccion Inicio -->
 		<div class="row" id="inicio">
 			<div class="col-xs-12 col-md-12 d-flex flex-column justify-content-md-center">
-				<h1 class="text-center display-4">&#60 Developer &#62</h1>
+				<h1 class="text-center display-4">&#60 Developer & Designer &#62</h1>
 				<p>Soy <span class="font-weight-bold">Elvis M</span>, Soy diseñador gráfico con amplios conocimientos en programación tanto de frontend como backend, interesado en la experiencia del usuario comprendo la importancia del planteamiento de las aplicaciones 
 				desde la metodología thinking design, me encuentro actualizado en cuanto al desarrollo de prototipado y recientes tecnologías front PWA. 
 				<p>Soy egresado de la carrera de Diseño de la Comunicación Gráfica UAM y actualmente curso el último semestre de TSU en desarrollo de software en UnADM y el 6to en ciencias de la Comunicación UNAM ambas en sistema abierto.</p> 
 				<p>Por otra parte en mis tiempos libres suelo tocar guitarra y hacer un poco de ejercicio.</p>
 			</div>
 		</div>
+		<!-- Seccion de conocimientos y habilidades -->
 		<h2 class="text-center display-4 mt-5 mb-5" id="conocimientos">Conocimientos</h2>
-		<div class="row mb-5">
+		<div class="row mt-5 mb-5">
 			<div class="col-xs-12 col-md-3">
 				<h3>Frontend</h3>
 				<ul>
 					<li>HTML5</li>
 					<li>CSS3</li>
+					<li>ES6</li>
 					<li>JavaScript</li>
-					<li>Angular (version actual)</li>
+					<li>Angular</li>
+					<li>Reactjs</li>
+					<li>React redux</li>
 					<li>Bootstrap</li>
 					<li>Ajax</li>
 					<li>Json</li>
 					<li>JQuery</li>
 					<li>Sass</li>
 					<li>PWA</li>
-					<li>Ionic</li>
+					<li>Consumo Api rest</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
 				<h3>Backend</h3>
 				<ul>
 					<h5>Java</h5>
-					<li>Spring core, mvc</li>
-					<li>Hibernate</li>
+					<li>Spring core, mvc, jdbcTemplate</li>
 					<li>Maven</li>
 					<li>Jersey jax-rs</li>
-					<li>jsp</li>
 				</ul>
 				<ul>
 					<h5>Base de datos</h5>
@@ -74,7 +78,6 @@
 					<h5>Otras</h5>
 					<li>PHP</li>
 					<li>Python, Django</li>
-					<li>Firebase</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
@@ -84,12 +87,10 @@
 					<li>npm</li>
 					<li>Visual Studio Code</li>
 					<li>Eclipse ide</li>
-					<li>Heroku</li>
 					<li>MySql server, phpMyAdmin</li>
 					<li>Xampp</li>
 					<li>Filezilla ftp</li>
 					<li>UML</li>
-					<li>RUP</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
@@ -111,7 +112,7 @@
 		<!-- Inicia proyectos -->
 		<h2 class="text-center display-4 mt-5 mb-5" id="proyectos" >Proyectos</h2>
 		<div class="row d-flex justify-content-between">
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 					<img class="card-img-top" src="resources/app_mascotas.png" alt="appmascotas">
 					<div class="card-body">
 						<h4 class="card-title">Registro de mascotas</h4>
@@ -119,7 +120,7 @@
 						<a href="https://mascotasapp.herokuapp.com" target="_blank" class="btn btn-danger">Ver proyecto</a>
 					</div>
 				</div>
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 						<img class="card-img-top" src="resources/app_productos.png" alt="appproductos">
 						<div class="card-body">
 							<h4 class="card-title">Productos</h4>
@@ -128,7 +129,7 @@
 							<a href="https://formularios-pgyxipiyma.now.sh" class="btn btn-danger">Ver proyecto</a>
 						</div>
 					</div>
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 	  				<img class="card-img-top" src="resources/crudbook.png" alt="crudAngularjs">
 					<div class="card-body">
 					    <h4 class="card-title">Crud Angularjs</h4>
@@ -137,7 +138,7 @@
 					    <a href="https://pruebasphonegap.000webhostapp.com/crud/crud/" target="_blank" class="btn btn-danger">Ver proyecto</a>
 					</div>
 				</div>
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 					  <img class="card-img-top" src="resources/pwa.png" alt="progressiva">
 					<div class="card-body">
 						<h4 class="card-title">Maquetado web PWA</h4>
@@ -146,7 +147,7 @@
 						<a href="https://planetoide.github.io/aplicacionWPA/" target="_blank" class="btn btn-danger">Ver proyecto</a>
 					</div>
 				</div>
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 	  				<img class="card-img-top" src="resources/landing.png" alt="landingPage">
 					<div class="card-body">
 					    <h4 class="card-title">Landing page</h4>
@@ -155,7 +156,7 @@
 					    <a href="https://planetoide.github.io/landing/" target="_blank" class="btn btn-danger">Ver proyecto</a>
 					</div>
 				</div>
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 	  				<img class="card-img-top" src="resources/avm.png" alt="avm">
 					<div class="card-body">
 					    <h4 class="card-title">Maquetado web</h4>
@@ -164,7 +165,7 @@
 					    <a href="https://pruebasphonegap.000webhostapp.com/agencia/agencia/" target="_blank" class="btn btn-danger">Ver proyecto</a>
 					</div>
 				</div>
-				<div class="card m-1 col-md-3">
+				<div class="card m-1 col-md-3 col-sm-12">
 	  				<img class="card-img-top" src="resources/index.png" alt="aplicacion">
 					<div class="card-body">
 					    <h4 class="card-title">Aplicación híbrida</h4>
@@ -173,8 +174,8 @@
 					    <a href="https://drive.google.com/file/d/0B-mXuh05vxaiNS15alZQMEUxN0U/view" target="_blank" class="btn btn-danger">Descargar prueba de app</a>
 					</div>
 				</div>
-				<div class="card m-1 col-md-3">
-	  				<img class="card-img-top" src="resources/universo.jpg" alt="universo">
+				<div class="card m-1 col-md-3 col-sm-12">
+	  				<img class="card-img-top" src="resources/universo.png" alt="universo">
 					<div class="card-body">
 					    <h4 class="card-title">Maquetado web</h4>
 					    <p class="card-text">Universo</p>
@@ -186,36 +187,39 @@
 
 		</div>
 		<!-- Termina proyectos -->
-			
-	</section>
-	<hr>
-	<!-- Finaliza seccion inicio -->
-	<section class="formulario container mb-5" id="contacto">
+		<hr>
+		<!-- Seccion de formulario -->
 		<h2 class="text-center display-4 mt-5 mb-5">Contacto</h2>
-		<form id="form">
-			<div class="form-group">
-		    	<label for="nombre">Nombre:</label>
-		    	<input type="text" class="form-control" id="nombre" required name="nombre">
-			</div>
-			<div class="form-group">
-			    <label for="email">Email:</label>
-			    <input type="email" class="form-control" id="email" required name="email">
-			</div>
-			<div class="form-group">
-  				<label for="asunto">Asunto:</label>
-  				<textarea class="form-control" rows="5" id="comment" required name="asunto"></textarea>
-			</div>
-			<button type="submit" class="btn btn-primary">Enviar</button>
-			<div id="cargador" class="d-none" >
+		<section class="mb-5 row d-flex justify-content-center" id="contacto">
+			<form id="form" class="col-md-8">
+				<div class="form-group">
+					<label for="nombre">Nombre:</label>
+					<input type="text" class="form-control" id="nombre" required name="nombre">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" required name="email">
+				</div>
+				<div class="form-group">
+					<label for="asunto">Asunto:</label>
+					<textarea class="form-control" rows="5" id="comment" required name="asunto"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+				<div id="cargador" class="d-none">
 					<i class="fa fa-spinner fa-spin"></i>
 					<span>Enviando...</span>
-			</div>
-			<div id="resp" class="d-none text-success ">correo enviado enviado</div>
-			<div id="fallo" class="d-none text-danger ">no se puedo enviar</div>
-		</form>
+				</div>
+				<div id="resp" class="d-none text-success ">correo enviado enviado</div>
+				<div id="fallo" class="d-none text-danger ">no se puedo enviar</div>
+			</form>
+		</section>
 	</section>
+	<!-- footer -->
 	<footer class="container-fluid d-flex justify-content-center align-items-center p-5">
-		<span class="mr-2 text-light">Visita mi </span> <a href="https://github.com/planetoide" target="_blank"><img src="resources/imagen.png" alt="github" width="150px"></a>
+		<span class="mr-2 text-light">Visita mi </span>
+		<a href="https://github.com/planetoide" target="_blank">
+			<img src="resources/imagen.png" alt="github" width="150px">
+		</a>
 	</footer>
 	<script>
         $(document).ready(function(){
