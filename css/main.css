@@ -1,10 +1,18 @@
-				
+
 .barra {
-	background-color: gray;
-	opacity: 0.6;
+	background-color: #ff1d58;
+	opacity: 0.8;
+}
+.title {
+	color: #ff1d58;
+}
+
+.button-send {
+	background-color: #ff1d58;
+	color: #FFF;
 }
 .barra a {
-	color: #000;
+	color: #FFF;
 }
 #inicio {
 	height: 100vh;
@@ -15,5 +23,6 @@
 }
 footer {
 	height: 50px;
-	background-color: grey;
+	background-color: #ff1d58;
+	opacity: 0.8;
 }
