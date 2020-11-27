@@ -1,59 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Portafolio</title>
+	<title>Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-	<section  class="container-fluid">
-		<!-- NAVIGATION -->
-    	    <nav class="navbar navbar-expand-lg fixed-top barra">
-                <a class="navbar-brand" href="#inicio">Elvis Portfolio</a>
-     	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barramenu" aria-controls="barramenu" aria-expanded="false" aria-label="Toggle navigation">
-		<!-- <span class="navbar-toggler-icon"></span> -->
-		    <i class="fa fa-bars" aria-hidden="true"></i>
-                </button>
-            <div class="collapse navbar-collapse" id="barramenu">
-               <div class="navbar-nav ml-auto">
-               <a class="nav-item nav-link" href="#inicio">Inicio</a>
-               <a class="nav-item nav-link" href="#conocimientos">Conocimientos</a>
-               <a class="nav-item nav-link" href="#proyectos">Proyectos</a>
-               <a class="nav-item nav-link" href="#contacto">Contacto</a>
-                   </div>
-               </div>
-	   </nav>
+	<!-- NAVIGATION -->
+	<nav class="navbar navbar-expand-lg fixed-top barra">
+		<a class="navbar-brand" href="#inicio">Elvis Portfolio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barramenu"
+			aria-controls="barramenu" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- <span class="navbar-toggler-icon"></span> -->
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="barramenu">
+			<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link" href="#inicio">Home</a>
+				<a class="nav-item nav-link" href="#conocimientos">Knowledges</a>
+				<a class="nav-item nav-link" href="#proyectos">Proyects</a>
+				<a class="nav-item nav-link" href="#contacto">Contact</a>
+			</div>
+		</div>
+	</nav>
 	<!-- Contenedor principal de la aplicación -->
+	<section class="container">
 		<!-- Seccion Inicio -->
 		<div class="row" id="inicio">
 			<div class="col-xs-12 col-md-12 d-flex flex-column justify-content-md-center">
-				<h1 class="text-center display-4">&#60 Developer&#62</h1>
-				<p>Soy <span class="font-weight-bold">Elvis M</span>, Soy un programador que se desenvuelve principalmente como frontend, aunque sin problema alguno puedo realizar distintas tareas del lado del backend, en este ámbito siempre intento mantenerme al día con las nuevas herramientas para el desarrollo. 
-				<p>Soy pasante en la carrera TSU en desarrollo de software, además de contar con el título de Diseñador de la comunicación gráfica por la UAM.</p> 
-				<p>Por otra parte en mis tiempos libres suelo tocar guitarra y hacer un poco de ejercicio.</p>
+				<h1 class="text-center display-4 title">&#60 Fullstack developer / &#62</h1>
+				<p>Hi!, I am <span class="font-weight-bold title">Elvis Martínez</span>, I have been
+					working as a developer fullstack using technologies as a java, javascript and others to create
+					applications with the most recent tools in the field, I have some years of experience working both
+					frontend and the backend with Angular, React, Spring boot. I always try to maintain me updated in
+					those areas</p>
 			</div>
 		</div>
 		<!-- Seccion de conocimientos y habilidades -->
+		<hr>
+		<h2 class="text-center display-4 mt-5 mb-5 title" id="conocimientos">Knowledges</h2>
 		<div class="row mt-5 mb-5">
-			<h2 class="text-center display-4 mt-5 mb-5 col-sm-12" id="conocimientos">Conocimientos</h2>
 			<div class="col-xs-12 col-md-3">
 				<h3>Frontend</h3>
 				<ul>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>ES6</li>
-					<li>JavaScript</li>
 					<li>Angular</li>
 					<li>Reactjs</li>
 					<li>React redux</li>
+					<li>HTML5</li>
+					<li>CSS3, Sass</li>
+					<li>JavaScript</li>
+					<li>ES6</li>
 					<li>Bootstrap</li>
-					<li>Sass</li>
-					<li>Consumo Api rest</li>
+					<li>Json</li>
+					<li>Responsive web design</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
@@ -61,120 +67,164 @@
 				<ul>
 					<h5>Java</h5>
 					<li>Spring boot</li>
+					<li>Spring security</li>
+					<li>Rest services</li>
 					<li>Maven</li>
+					<li>jpa/hibernate</li>
 				</ul>
 				<ul>
-					<h5>Base de datos</h5>
+					<h5>Databases</h5>
 					<li>MySql, mariaDB</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
-				<h3>Herramientas</h3>
+				<h3>Tools</h3>
 				<ul>
-					<li>Github</li>
-					<li>npm</li>
+					<li>Git, Github</li>
+					<li>npm, yarn</li>
 					<li>Visual Studio Code</li>
-					<li>Eclipse ide, spring tool suit</li>
-					<li>MySql server, phpMyAdmin</li>
+					<li>Spring tool suit</li>
+					<li>MySql server</li>
 					<li>Xampp</li>
-					<li>Filezilla ftp</li>
 					<li>UML</li>
+					<li>jira</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
-				<h3>Idiomas</h3>
+				<h3>Languages</h3>
 				<ul>
-					<li>Inglés conversacional intermedio</li>
+					<li>Intermediate conversational english</li>
 				</ul>
 			</div>
 		</div>
 
 		<!-- Inicia proyectos -->
-		
-		<div class="row d-flex justify-content-between sm-justify-content-center">
-			<h2 class="text-center display-4 mt-5 mb-5 col-sm-12" id="proyectos" >Proyectos</h2>
-				<div class="card m-1 col-md-3 col-sm-12">
-					<img class="card-img-top" src="resources/app_mascotas.png" alt="appmascotas">
-					<div class="card-body">
-						<h4 class="card-title">Registro de mascotas</h4>
-						<p class="card-text">Tecnologías: Java, JSP, Hibernate, Spring core y mvc, Bootstrap, HTML, CSS, JavaScript, base de datos remota mysql, desplegada en Heroku </p>
-						<a href="https://mascotasapp.herokuapp.com" target="_blank" class="btn btn-danger">Ver proyecto</a>
-					</div>
+		<hr>	
+		<h2 class="text-center display-4 mt-5 mb-5 title" id="proyectos">Proyects</h2>
+		<div class="row d-flex justify-content-between">
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/swaggerApi.png" alt="appmascotas">
+				<div class="card-body">
+					<h4 class="card-title">Rest services, swagger</h4>
+					<p class="card-text">Technologies: Java, Spring boot, Spring security, JPA/Hibernate, JWT, H2, hosted
+						in heroku</p>
+					<a href="https://heroku-java-react.herokuapp.com/swagger-ui/" target="_blank"
+						class="btn button-send">Watch proyect</a>
 				</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-						<img class="card-img-top" src="resources/app_productos.png" alt="appproductos">
-						<div class="card-body">
-							<h4 class="card-title">Productos</h4>
-							<p class="card-text">Página SPA, api restful, consumo de servicios, creación, obteción y eliminación de inforación den la base de datos de manera remota</p>
-							<p>Tecnologías utilizadas: Java, Hibrenate, Jersey jax-rs, Angular 6, Bootstrap, Chart js, typescript, HTML5, CSS3, MySql, despliege de java en Heroku</p>
-							<a href="https://formularios-pgyxipiyma.now.sh" class="btn btn-danger">Ver proyecto</a>
-						</div>
-					</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-	  				<img class="card-img-top" src="resources/crudbook.png" alt="crudAngularjs">
-					<div class="card-body">
-					    <h4 class="card-title">Crud Angularjs</h4>
-					    <p class="card-text">Página SPA, creación, obteción, actualización y eliminación de inforación den la base de datos. Página adaptable a dispositivos</p>
-					    <p>Tecnologías utilizadas: HTML5, CSS3, JavaScript, PHP, Angularjs, MySql</p>
-					    <a href="https://pruebasphonegap.000webhostapp.com/crud/crud/" target="_blank" class="btn btn-danger">Ver proyecto</a>
-					</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/factura.png" alt="facuturas">
+				<div class="card-body">
+					<h4 class="card-title">Rest services, swagger</h4>
+					<p class="card-text">Technologies: Java, Spring boot, Spring security, JPA/Hibernate, JWT, H2, hosted
+						in heroku</p>
+					<a href="https://afternoon-dawn-02939.herokuapp.com" target="_blank"
+						class="btn button-send">Watch proyect</a>
 				</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-					  <img class="card-img-top" src="resources/pwa.png" alt="progressiva">
-					<div class="card-body">
-						<h4 class="card-title">Maquetado web PWA</h4>
-						<p class="card-text">Maquetación página progresiva, adaptable a dispostivos móbiles y de escritorio, se utiliza la tecnología de service workers para mantener el funcionamiento de la página aun cuando no se cuenta con conexión a internet</p>
-						<p>Tecnologías utilizadas: HTML5, CSS3, JavaScript</p>
-						<a href="https://planetoide.github.io/aplicacionWPA/" target="_blank" class="btn btn-danger">Ver proyecto</a>
-					</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/react-basic-crm.PNG" alt="appmascotas">
+				<div class="card-body">
+					<h4 class="card-title">Basic crm with react</h4>
+					<p class="card-text">Technologies: React, Redux, Chart.js, HTML, CSS, JavaScript, material-ui,axios, hosted 
+						in heroku</p>
+					<a href="https://stark-coast-58195.herokuapp.com" target="_blank" class="btn button-send">Watch proyect
+					</a>
 				</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-	  				<img class="card-img-top" src="resources/landing.png" alt="landingPage">
-					<div class="card-body">
-					    <h4 class="card-title">Landing page</h4>
-					    <p class="card-text">Landing page para aplicación de agenda de citas, página adaptable a dispositivos</p>
-					    <p>HTML, CSS, JavaScript, Bootstrap</p>
-					    <a href="https://planetoide.github.io/landing/" target="_blank" class="btn btn-danger">Ver proyecto</a>
-					</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/formik.PNG" alt="appmascotas">
+				<div class="card-body">
+					<h4 class="card-title">Validation form, react and formik</h4>
+					<p class="card-text">Technologies: React, Formik, Yup, HTML, CSS, JavaScript</p>
+					<a href="https://planetoide.github.io/react-formik/" target="_blank" class="btn button-send">Watch proyect
+					</a>
 				</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-	  				<img class="card-img-top" src="resources/avm.png" alt="avm">
-					<div class="card-body">
-					    <h4 class="card-title">Maquetado web</h4>
-					    <p class="card-text">Maquetación web, adaptable a dispostivos móbiles y de escritorio</p>
-					    <p>Tecnologías utilizadas: HTML5, CSS3, JavaScript, JQuery</p>
-					    <a href="https://pruebasphonegap.000webhostapp.com/agencia/agencia/" target="_blank" class="btn btn-danger">Ver proyecto</a>
-					</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/universo.png" alt="universo">
+				<div class="card-body">
+					<h4 class="card-title">Universe, Mock web</h4>
+					<p>Technologies: HTML5, CSS3, JavaScript, JQuery</p>
+					<a href="https://planetoide.github.io/univers-static-page/" target="_blank"
+						class="btn button-send">Watch proyect</a>
 				</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-	  				<img class="card-img-top" src="resources/index.png" alt="aplicacion">
-					<div class="card-body">
-					    <h4 class="card-title">Aplicación híbrida</h4>
-					    <p class="card-text">Aplicación para la gestión de citas en un consultorio dental</p>
-					    <p>Tecnologías utilizadas: Cordova Phonegap, HTML5, CSS3, JavaScript, PHP, MySql, Ajax, Jquery</p>
-					    <a href="https://drive.google.com/file/d/0B-mXuh05vxaiNS15alZQMEUxN0U/view" target="_blank" class="btn btn-danger">Descargar prueba de app</a>
-					</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/app_mascotas.png" alt="appmascotas">
+				<div class="card-body">
+					<h4 class="card-title">Pet registration</h4>
+					<p class="card-text">Technologies: Java, JSP, Hibernate, Spring core y mvc, Bootstrap, HTML, CSS,
+						JavaScript, mysql, hosted in Heroku </p>
+					<a href="https://mascotasapp.herokuapp.com" target="_blank" class="btn button-send">Watch proyect</a>
 				</div>
-				<div class="card m-1 col-md-3 col-sm-12">
-	  				<img class="card-img-top" src="resources/Universo.png" alt="universo">
-					<div class="card-body">
-					    <h4 class="card-title">Maquetado web</h4>
-					    <p class="card-text">Universo</p>
-					    <p>Tecnologías utilizadas: HTML5, CSS3, JavaScript, JQuery, pagina web adaptable a dispositivos</p>
-					    <a href="https://pruebasphonegap.000webhostapp.com/universo/universo/" target="_blank" class="btn btn-danger">Ver proyecto</a>
-					</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/app_productos.png" alt="appproductos">
+				<div class="card-body">
+					<h4 class="card-title">Products</h4>
+					<p>Technologies: Java, Hibrenate, Jersey jax-rs, Angular 6, Bootstrap, Chart js,
+						typescript, HTML5, CSS3, MySql, hosted in Heroku</p>
+					<a href="https://formularios-pgyxipiyma.now.sh" class="btn button-send">Watch proyect</a>
 				</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/crudbook.png" alt="crudAngularjs">
+				<div class="card-body">
+					<h4 class="card-title">Crud Angularjs</h4>
+					<p>Technologies: HTML5, CSS3, JavaScript, PHP, Angularjs, MySql</p>
+					<a href="https://pruebasphonegap.000webhostapp.com/crud/crud/" target="_blank"
+						class="btn button-send">Watch proyect</a>
+				</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/pwa.png" alt="progressiva">
+				<div class="card-body">
+					<h4 class="card-title">Mock PWA</h4>
+					<p>Technologies: HTML5, CSS3, JavaScript, service workers, light house</p>
+					<a href="https://planetoide.github.io/aplicacionWPA/" target="_blank" class="btn button-send">
+						Watch proyect</a>
+				</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/landing.png" alt="landingPage">
+				<div class="card-body">
+					<h4 class="card-title">Landing page</h4>
+					<p>Technologies: HTML, CSS, JavaScript, Bootstrap</p>
+					<a href="https://planetoide.github.io/landing/" target="_blank" class="btn button-send">
+						Watch proyect</a>
+				</div>
+			</div>
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/avm.png" alt="avm">
+				<div class="card-body">
+					<h4 class="card-title">Mock web</h4>
+					<p>Technologies: HTML5, CSS3, JavaScript, JQuery</p>
+					<a href="https://planetoide.github.io/agency-static/" target="_blank"
+						class="btn button-send">Watch proyect</a>
+				</div>
+			</div>
+			
+			<div class="card m-1 col-md-3 col-sm-12">
+				<img class="card-img-top" src="resources/index.png" alt="aplicacion">
+				<div class="card-body">
+					<h4 class="card-title">Hybrid app</h4>
+					<p>Technologies: Cordova Phonegap, HTML5, CSS3, JavaScript, PHP, MySql, Ajax, Jquery</p>
+					<a href="https://drive.google.com/file/d/0B-mXuh05vxaiNS15alZQMEUxN0U/view" target="_blank"
+						class="btn button-send">Downlad app</a>
+				</div>
+			</div>
 
 
 		</div>
 		<!-- Termina proyectos -->
 		<hr>
 		<!-- Seccion de formulario -->
+		<h2 class="text-center display-4 mt-5 mb-5 title">Contact</h2>
 		<section class="mb-5 row d-flex justify-content-center" id="contacto">
-			<h2 class="text-center display-4 mt-5 mb-5 col-sm-12">Contacto</h2>
 			<form id="form" class="col-md-8">
 				<div class="form-group">
-					<label for="nombre">Nombre:</label>
+					<label for="nombre">Name:</label>
 					<input type="text" class="form-control" id="nombre" required name="nombre">
 				</div>
 				<div class="form-group">
@@ -182,16 +232,16 @@
 					<input type="email" class="form-control" id="email" required name="email">
 				</div>
 				<div class="form-group">
-					<label for="asunto">Asunto:</label>
+					<label for="asunto">comment:</label>
 					<textarea class="form-control" rows="5" id="comment" required name="asunto"></textarea>
 				</div>
-				<button type="submit" class="btn btn-primary">Enviar</button>
+				<button type="submit" class="btn button-send">Send</button>
 				<div id="cargador" class="d-none">
 					<i class="fa fa-spinner fa-spin"></i>
-					<span>Enviando...</span>
+					<span>Send it...</span>
 				</div>
-				<div id="resp" class="d-none text-success ">correo enviado enviado</div>
-				<div id="fallo" class="d-none text-danger ">no se puedo enviar</div>
+				<div id="resp" class="d-none text-success ">Good!</div>
+				<div id="fallo" class="d-none text-danger ">Somethig was wrong!</div>
 			</form>
 		</section>
 	</section>
@@ -203,31 +253,32 @@
 		</a>
 	</footer>
 	<script>
-        $(document).ready(function(){
-            //función que se ejecuta al hacer click al botón de envío
-            $("form").submit(function(){
-                //comienza el método ajax
-                $.ajax({
-                    type : "POST",
-                    url : "https://pruebasphonegap.000webhostapp.com/envio_email.php",
-                    data : $("form").serialize(),
-                    beforeSend : function(){
+		$(document).ready(function () {
+			//función que se ejecuta al hacer click al botón de envío
+			$("form").submit(function () {
+				//comienza el método ajax
+				$.ajax({
+					type: "POST",
+					url: "https://pruebasphonegap.000webhostapp.com/envio_email.php",
+					data: $("form").serialize(),
+					beforeSend: function () {
 						//antes de enviar no se debe ver el cargador
-                        $("#cargador").removeClass("d-none");
-                        
-                    },
-                    success : function(resultado){
-                        $("#cargador").addClass("d-none");
-                        $("#resp").removeClass("d-none");
+						$("#cargador").removeClass("d-none");
+
+					},
+					success: function (resultado) {
+						$("#cargador").addClass("d-none");
+						$("#resp").removeClass("d-none");
 						alert("se puedo");
-                    },
-                    error : function(er){
+					},
+					error: function (er) {
 						$("#fallo").removeClass("d-none");
 						alert("no se");
-                    }
-                });
-            });
-        });
-    </script>
+					}
+				});
+			});
+		});
+	</script>
 </body>
+
 </html>
